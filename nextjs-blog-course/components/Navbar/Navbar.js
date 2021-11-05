@@ -14,8 +14,8 @@ export default function Navbar() {
         <a>Blog</a>
       </Link>
 
-      <Link href="/contact">
-        <a>Contact</a>
+      <Link href="/isr">
+        <a>ISR</a>
       </Link>
     </nav>
   );
