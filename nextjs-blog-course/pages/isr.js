@@ -8,7 +8,7 @@ export default function contact(props) {
     </div>
   );
 }
-/****************** ISG (Incremental Static Generation) ******************/
+/************************* ISG (Incremental Static Generation) *********************************/
 /* Cette func sera éxécutée côté serveur et les data refresh ('revalidate')
    à chaque appel de la page par un user */
 export async function getStaticProps() {

@@ -10,8 +10,8 @@ export default function Navbar() {
         <a>Accueil</a>
       </Link>
 
-      <Link href="/blog">
-        <a>Blog</a>
+      <Link href="/listes">
+        <a>Listes</a>
       </Link>
 
       <Link href="/isr">
