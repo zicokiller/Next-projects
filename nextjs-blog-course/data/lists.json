@@ -1,7 +1,8 @@
 {
   "englishList": [
     {
-      "words": [
+      "name": "words",
+      "data": [
         {
           "en": "house",
           "fr": "maison"
@@ -33,7 +34,8 @@
       ]
     },
     {
-      "adjectives": [
+      "name": "adjectives",
+      "data":  [
         {
           "en": "tall",
           "fr": "grand"
@@ -73,7 +75,8 @@
       ]
     },
     {
-      "verbs": [
+      "name": "verbs",
+      "data": [
         {
           "en": "to be",
           "fr": "être"

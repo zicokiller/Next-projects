@@ -16,7 +16,7 @@ export default function Home(props) {
       <h1 className={styles.title}>Vocabulaire de base</h1>
       <table className={styles.tableau}>
         <tbody>
-          {props.array.map((el, index) => (
+          {props.array.map((el) => (
             <tr key={uuidv4()}>
               <td>{el.en}</td>
               <td>{el.fr}</td>
