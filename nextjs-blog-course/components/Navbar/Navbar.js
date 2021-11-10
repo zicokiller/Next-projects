@@ -17,6 +17,10 @@ export default function Navbar() {
       <Link href="/isr">
         <a>ISR</a>
       </Link>
+
+      <Link href="/cours">
+        <a>BTC</a>
+      </Link>
     </nav>
   );
 }
