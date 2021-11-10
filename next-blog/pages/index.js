@@ -26,7 +26,7 @@ export default function Home() {
               <h6 className="card-subtitle mb-2 text-muted">Rencontrez d'autres devs</h6>
               <p className="card-text">Ajoutez, invitez, discutez avec les différents membres</p>
               <Link href="/utilisateur">
-                <a>Découvrez la liste de membres</a>
+                <a>Découvrez la liste de nos membres</a>
               </Link>
             </div>
           </div>
