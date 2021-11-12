@@ -1,14 +1,11 @@
 export default function article(props) {
   console.log(props);
   return (
-  <div className="container px-4 pt-5">
-      <h1 className="text-center mb-4">
-          {props.article.title}
-      </h1>
+    <div className="container px-4 pt-5">
+      <h1 className="text-center mb-4">{props.article.title}</h1>
       <p>{props.article.body}</p>
-
-  </div>
-  )
+    </div>
+  );
 }
 
 export async function getStaticProps(context) {
@@ -29,11 +26,11 @@ export async function getStaticPaths() {
   const articles = await data.json();
 
   const paths = articles.map((item) => ({
-    params: {article: item.id.toString()}
+    params: { article: item.id.toString() },
   }));
 
   return {
-      paths,
-      fallback: false,
+    paths,
+    fallback: false,
   };
 }
