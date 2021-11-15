@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import styles from "../../styles/Home.module.css";
 
-export default function liste(props) {
+export default function Liste(props) {
   console.log(props);
   const router = useRouter();
   return (

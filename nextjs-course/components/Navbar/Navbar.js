@@ -21,6 +21,14 @@ export default function Navbar() {
       <Link href="/cours">
         <a>BTC</a>
       </Link>
+
+      <Link href="/random">
+        <a>Random</a>
+      </Link>
+
+      <Link href="/add">
+        <a>Add</a>
+      </Link>
     </nav>
   );
 }
