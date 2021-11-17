@@ -1,4 +1,4 @@
-export default function user(props) {
+export default function User(props) {
   return (
     <div className="container pt-3 px-4">
       <h2 className="text-center">{props.user.username}</h2>
